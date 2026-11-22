@@ -9,4 +9,4 @@ jobs:
         with:
           python-version: "3.11"
       - name: Vérifier que le code compile
-        run: python -m compileall -q main.py app
+        run: python -m compileall -q main.py application
